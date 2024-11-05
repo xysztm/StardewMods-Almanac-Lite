@@ -1,0 +1,24 @@
+{
+  /*
+   | This file is automatically updated by ModManifestBuilder
+   | when the project is compiled.
+   | 
+   | Changes made to this file may be overwritten.
+   | 
+   */
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "UniqueID": "leclair.thememanager.example",
+  "Name": "Theme Manager Example",
+  "Author": "Khloe Leclair",
+  "Version": "1.0.0",
+  "Description": "This mod is an example of how to set up ThemeManager in a mod.",
+  "MinimumApiVersion": "4.0",
+  "MinimumGameVersion": "1.6",
+  "EntryDll": "ThemeManagerExample.dll",
+  "Dependencies": [
+    {
+      "UniqueID": "leclair.thememanager",
+      "IsRequired": false
+    }
+  ]
+}
